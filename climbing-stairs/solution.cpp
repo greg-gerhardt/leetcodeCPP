@@ -1,3 +1,18 @@
+/*
+* When using small data points like 1, 2, 3, 4 .... steps,
+* it becomes clear that a pattern is establish.
+*
+* steps = posibilities
+* 1 = 1
+* 2 = 2
+* 3 = 3
+* 4 = 5
+* 5 = 8
+* 6 = 13
+* 
+* The pattern clearly appears to be the Fibonacci sequence.
+*/
+
 class Solution {
 public:
     int climbStairs(int n) {
